@@ -68,6 +68,11 @@ module RubyLLM
               input: %w[text image],
               output: ['text']
             }
+          when /ocr/
+            {
+              input: %w[text image],
+              output: ['text']
+            }
           when /embed/
             {
               input: ['text'],

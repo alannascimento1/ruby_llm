@@ -23,6 +23,7 @@ loader.inflector.inflect(
   'mistral' => 'Mistral',
   'vertexai' => 'VertexAI',
   'pdf' => 'PDF',
+  'ocr' => 'OCR',
   'UI' => 'UI'
 )
 loader.ignore("#{__dir__}/tasks")
